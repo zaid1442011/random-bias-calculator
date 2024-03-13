@@ -1,5 +1,4 @@
 import random
-import os
 
 maxrand = 9007199254740991
 EVEN = 0
@@ -13,5 +12,4 @@ while True:
       ODD = ODD + 1
    tries = tries + 1
 
-   os.system('clear')
-   print("Odd:", ODD, "Even:", EVEN, "Odd %:", ((ODD / tries) * 100), "Even %:", ((EVEN / tries) * 100))
+   print("Odd:", ODD, "Even:", EVEN, "Odd %:", ((ODD / tries) * 100), "Even %:", ((EVEN / tries) * 100), end='\r')
